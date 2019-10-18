@@ -1,0 +1,170 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Header Style */
+
+header {
+    text-transform: uppercase;
+    color: black;
+    background: url("img/calum-lewis-8Nc_oQsc2qQ-unsplash.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 1rem;
+    transition: .5s;
+    padding: .3rem;
+}
+h1 {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+nav ul a {
+    text-decoration: none;
+    color: white;;
+}
+
+.header-first {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    opacity: .8;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+ul li:hover {
+    border-bottom: 1px solid white;
+}
+
+.header-second {
+    margin: 1rem;
+}
+.header-second > * {
+    margin: 1rem 0;
+}
+.header-second > p {
+    font-size: .8rem;
+    opacity: .7;
+}
+.header-second h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+.two-p p {
+    font-size: .8rem;
+    padding: .8rem;
+    margin: 1.5rem 0;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    width: 35%;
+    text-align: center;
+    border-radius: .1rem;
+    transition: .3s;
+    
+}
+.two-p p:hover {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+/* Main Styling (Grid) */
+
+.wrapper {
+    max-width: 80%;
+    margin: 1rem auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.box {
+    padding: 30px;
+    background-color: gray;
+}
+
+/* Box-1 */
+
+.one {
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+}
+.img-1 img {
+    max-width: 100%;
+}
+.img-1-text > * {
+    padding: 1rem;
+}
+.img-1-text {
+    background-color: rgb(238, 238, 238);
+    border-radius: 1rem;
+}
+.img-1 p {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2 {
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+/* Box-2 */
+
+.two {
+    background-color: white;
+}
+.menu-op > * {
+    text-align: center;
+    margin-top: 1rem; 
+}
+.menu-op {
+     margin: 2rem 0;
+}
+.menu h2 {
+    text-align: center;
+}
+dt {
+    font-weight: bold;
+    text-align: center;
+}
+dd {
+    margin: 0 1rem;
+    margin-bottom: 1rem; 
+    text-align: center;
+}
+.price {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(196, 0, 0);
+}
+.two_img {
+    display: flex;
+    flex-flow: column;   
+}
+.two_img img {
+    max-width: 100%;
+    margin: .5rem 0;
+}
+/*  box-3  */
+
+.three {
+    background-color: white;
+    text-align: center;
+}
